@@ -1,0 +1,40 @@
+{
+  "name": "testing_grounds",
+  "version": "1.0.0",
+  "description": "Testing gounds for lib/apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack-dev-server --env.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azein/testing_grounds.git"
+  },
+  "keywords": [
+    "yolo",
+    "420",
+    "baylife"
+  ],
+  "author": "Azein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Azein/testing_grounds/issues"
+  },
+  "homepage": "https://github.com/Azein/testing_grounds#readme",
+  "dependencies": {
+    "babel-loader": "^7.0.0",
+    "history": "^4.6.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-hot-loader": "^3.0.0-beta.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
